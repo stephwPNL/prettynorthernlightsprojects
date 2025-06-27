@@ -1,0 +1,38 @@
+body {
+        background-color:darkkhaki;
+}
+
+h1 {
+        background-color: #b388eb;
+        color:darkmagenta; 
+        font-family: "Gruppo", sans-serif , Arial, Helvetica, sans-serif;
+        font-size: 60px;
+}
+
+h2 {
+        background-color: #f7aef8;
+        color:darkmagenta;
+        font-family: "Gruppo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 38px;
+}
+
+}
+ Arial, Helvetica, sans-serif;
+}
+
+span {
+        color:darkorchid;
+        font: bold;
+        font-style: italic;
+}
+
+p {
+        font-size: 22px;
+}
+
+ol{
+        font:bolder;
+        font-size: 25px;
+}
