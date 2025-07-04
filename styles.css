@@ -4,8 +4,8 @@
         box-sizing: border-box;
 }
 body {
-        background-color:darkkhaki;
-        color: black;
+        background-color: black;
+        color: white;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
         margin: 50px;
@@ -18,11 +18,12 @@ h1, h2, h3 {
 
 h1 {
         background-color: #b388eb;
-        color:darkmagenta; 
+        color:plum; 
         font-family: "Gruppo", sans-serif , Arial, Helvetica, sans-serif;
         font-size: 60px;
         text-align: center;
-        border-bottom: 1px solid black;
+        border-bottom: 1px springgreen;
+        margin-bottom: 3ch;
 }
 
 h2 {
@@ -32,6 +33,9 @@ h2 {
         font-weight: 400;
         font-style: normal;
         font-size: 38px;
+        padding-bottom: .5ch;
+        margin-bottom: 2ch;
+        margin-top: 4ch;
 }
 
 span {
@@ -47,29 +51,34 @@ p {
 ol{
         font:bolder;
         font-size: 25px;
+        margin: 2ch;
 }
 
 p {
         line-height: 2;
+        margin: 2ch;
 }
 
 header h1 {
         text-align: center;
 }
 
-a{
-        color: purple;
+a {
+        font: bolder;
+        color: lawngreen;
         text-decoration: none;
-        font-size: large;
+        font-size: 34px;
 }
 
 a:hover {
+        font: bolder;
         color: greenyellow;
         text-decoration: underline;
 }
 
 
 header, 
+h2
 section,
 footer {
         padding: 30px;
@@ -80,7 +89,8 @@ img {
 }
 
 .footer-para {
-        font-weight: bold;
+        font-weight: 600;
+        color: blueviolet;
 }
 
 header {
@@ -96,11 +106,43 @@ header {
 }
 
 .banner {
-        background-image: url("./2images/flowers-thread.jpg");
+      background-image: url("./2images/flowers-thread.jpg");
         background-size: 45%;
         width: 100%;
         height: 300px;
         background-repeat: repeat;
         background-position: center;
         background-color: lightgreen;
+       
+}
+
+#page-number {
+        color: palevioletred;
+}
+
+footer {
+        border-top-style: groove;
+        border-width: 1cm;
+}
+
+.video {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+}
+
+.back-video {
+       position: absolute;
+       right: 0;
+       bottom: 0;
+       top: 0;
+       left: 0;
+       z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+        .back-video{
+                width: 100%;
+                height:  auto;
+        }
 }
