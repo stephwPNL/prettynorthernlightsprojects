@@ -146,3 +146,9 @@ footer {
                 height:  auto;
         }
 }
+#regalia-vid-para {
+        display: block;
+        text-align: center;
+        color: orangered;
+        font-weight: bolder;
+}
